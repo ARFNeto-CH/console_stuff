@@ -73,7 +73,7 @@ void mostra_grade_256_cores()
 {
 	cls();
 	text_color(15, 0);	/* preto sobre branco */
-	printf("Gabarito (Frente|Fundo) escritona linha 5 coluna 10\n");
+	printf("Gabarito (Frente|Fundo) escrito em (5,10)\n");
 	printf("    os numeros sao das cores que o windows usa\n\n\n");
 
 	for (int letra = 0; letra < 16; letra += 1)
@@ -94,7 +94,7 @@ void mostra_grade_256_cores()
 	printf("Amarelo sobre preto: os numeros sao das cores que o windows usa\n");
 	text_color(_branco_, _preto_);
 	printf("teste depois de restaurar a cor\n");
-
+	mensagem_em_video_reverso(" r e v e r s o ");
 	return;
 };	// mostra_grade_256_cores()
 
